@@ -33,5 +33,5 @@ app.post("/payments/create", async (request, response) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`serever running on port: ${PORT}`);
+  console.log(`serever running on port: ${{ PORT }}`);
 });
